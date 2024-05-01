@@ -1,0 +1,61 @@
+body{
+    border: 1px solid pink;
+    margin: 5px;
+}
+header{
+    border-bottom: 1px solid pink;
+    height: 50px;
+    background-color: pink;
+}
+section{
+    padding: 20px;
+}
+footer > span{
+    margin-left: 85%;
+    margin-bottom: 5%;
+    padding: 10px;
+    width: 50px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: pink;
+    border-radius: 5px;
+}
+footer{
+    height: 60px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border: 1px solid pink;
+    margin:20px;
+    padding: 20px;
+}
+#welcome{
+        padding-left: 40%;
+        padding-right: 40%;
+        font-style: bold;
+}
+#log{
+    width: 100px;
+    height: 90px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    background-color: pink;
+    border-radius: 5px;
+}
+#total{
+   text-align: end;  
+}
+i{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+input{
+    width: 20px;
+    margin-left: 5px;
+    margin-right: 3px;
+}

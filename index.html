@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./mystyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img src="dog.png" alt="logo" width="30" height="30">
+        <span id="welcome">Welcome , Jack</span>
+        <span id="log">Logout</span>
+    </header>
+    <section>
+        <div>
+            <p>Product List</p>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>Node.js</td>
+                    <td>9.99</td>
+                    <td>8</td>
+                    <td><i class="fa fa-shopping-cart"></i></td>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td>19.99</td>
+                    <td>5</td>
+                    <td><i class="fa fa-shopping-cart"></i></td>
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>29.99</td>
+                    <td>13</td>
+                    <td><i class="fa fa-shopping-cart"></i></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p>Your Shopping cart</p>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr>
+                    <td>Node.js</td>
+                    <td>9.99</td>
+                    <td>9.99</td>
+                    <td>
+                        <span>-</span>
+                        <input type="text" value="1">
+                        <span>+</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>29.99</td>
+                    <td>290.99</td>
+                    <td>
+                        <span>-</span>
+                        <input type="text" value="10">
+                        <span>+</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="total" colspan="4">Total: 300.98</td>
+                </tr>
+            </table>
+        </div>
+    </section>  
+    <footer>
+        <a href="https://validator.w3.org/">
+            <img src="./htmlchecker.png" alt="html checker" width="80" height="20">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/validator/">
+            <img src="./css_checker.png" alt="css checker" width="80" height="20">
+        </a>
+        <span>PlaceOrder</span>
+        
+    </footer>
+</body>
+</html>
